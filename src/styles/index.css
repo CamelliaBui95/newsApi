@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button, .btn {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* Loading card */
+.loading-card {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.loading-card h3 {
+  margin-right: 10px;
+}
+
+.spinner-grow {
+  margin-right: 5px;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.navbar-brand span, i {
+  color: #e0e8f3;
+  font-size: 30px;
+}
+
+/* SideBar*/
+.sidebar {
+  position: fixed;
+  margin-top: 80px;
+  padding: 10px;
+  width: 25%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  max-height: 100vh;
+}
+
+.sidebar ul {
+  padding: 0;
+  max-height: 80vh;
+  min-height: 80vh;
+  overflow: auto;
+}
+
+.sidebar ul li {
+  list-style: none;
+}
+
+/*Article list*/
+.list-group {
+  margin-top: 80px;
+}
+
+/* Article card */
+.article-card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  text-align: start;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.thumbnail-img, .empty-block {
+  margin-top: 5px ;
+  width: 100%;
+  height: 90%;
+}
+
+.article-card h5 , p, button {
+  font-size: 22px;
+}
+
+.article-card .collapse {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-top: 5px;
+}
+
+.article-card .card {
+  background-color: rgb(44, 128, 238);
+  color: whitesmoke;
+}
+
+/* Collapse card */
+.description {
+  text-align: left;
+  font-size: 23px;
+}
+
+.publish-date, .author {
+  font-size: 20px;
+  font-style: italic;
+  color: rgb(46, 44, 44) ; 
+  color: whitesmoke;
+}
+
+.show-content {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+/*Content page*/
+.content-card {
+  text-align: left;
+  margin-top: 80px;
+  padding: 10px 10px 20px 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+/*Favorite section*/
+.favorite-card {
+  transition: 0.3s;
+}
+
+.favorite-card:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.favorite-card .link {
+  text-decoration: none;
+  color: rgb(32, 32, 32);
+}
+
+.favorite-card div {
+  padding: 10px;
+}
+
+.favorite-card div:nth-child(2) {
+  padding: 0px 10px 10px 10px;
+  text-align: right;
+  
+}
+.favorite-card button {
+  box-shadow: none;
+}
+
+/*Favorite page*/
+
+.no-favorite {
+  margin-top: 10%;
+}
+
+.favorite {
+  position: fixed;
+  margin-top: 5%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 10px;
+}
+
+.favorite .badge {
+  font-size: 0.42em;
+  position: relative;
+  top: -1em; 
+  margin-left: 0.1em; 
+}
+
+.favorite .list-group {
+  margin-top: 0;
+  max-height: 78vh;
+  overflow-y: auto;
+  /*box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;*/
+}
+
+.favorite .header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.favorite .header button {
+  height: 2.5em;
+}
+
